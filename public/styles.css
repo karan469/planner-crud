@@ -1,0 +1,13 @@
+body {
+	/* font-family: "Inter", sans-serif; */
+	background-color: #1f1f1f;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
